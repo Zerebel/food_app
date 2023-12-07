@@ -1,0 +1,247 @@
+import 'package:flutter/material.dart';
+import 'package:food_app/food_app_assets.dart';
+import 'package:food_app/providers/app_data.dart';
+
+class DataRepository {
+  List<AppData> get restaurants =>
+      restaurant.map((e) => AppData.fromMap(e)).toList();
+
+  late final restaurant = [
+    {
+      'backgroundColor': const Color.fromRGBO(254, 83, 45, 1).value,
+      'logo': FoodAppAssets.macdonnalds,
+      'companyName': 'McDonnald\'s',
+      'products': [products[0]],
+    },
+    {
+      'backgroundColor': const Color.fromRGBO(4, 170, 14, 1).value,
+      'logo': FoodAppAssets.subway,
+      'companyName': 'Subway',
+      'products': [products[1]],
+    },
+    {
+      'backgroundColor': const Color.fromRGBO(255, 116, 106, 1).value,
+      'logo': FoodAppAssets.kfc,
+      'companyName': 'KFC',
+      'products': [products[2]],
+    },
+    {
+      'backgroundColor': const Color.fromRGBO(0, 145, 139, 1).value,
+      'logo': FoodAppAssets.starbucks,
+      'companyName': 'Starbucks',
+      'products': [products[3]],
+    },
+    {
+      'backgroundColor': const Color.fromRGBO(4, 145, 234, 1).value,
+      'logo': FoodAppAssets.domino,
+      'companyName': 'Dominos',
+      'products': [products[4]],
+    },
+    {
+      'backgroundColor': Colors.black.value,
+      'logo': FoodAppAssets.shake_shack,
+      'companyName': 'Shake Shack',
+      'products': [products[5]],
+    },
+  ];
+
+  late final products = [
+    {
+      'id': '1',
+      'name': 'Big Mac Combo',
+      'tag': 'Breakfast',
+      'imagePath': FoodAppAssets.food,
+      'description': 'Burgers, American',
+      'recipe':
+          'A big and tasty burger with special sauce, lettuce, cheese, pickles, onions on a sesame seed bun, complemented with fries. And an additional ice chilled coke to go with it.',
+      'price': 20.0,
+      'rating': 4.5,
+      'preparationTime': '10 - 15',
+    },
+    {
+      'id': '2',
+      'name': 'Hot Dog Combo',
+      'tag': 'Breakfast',
+      'imagePath': FoodAppAssets.subwayfood,
+      'description': 'Hotdog, Fast Food',
+      'recipe':
+          'A hotdog with special sauce, lettuce, cheese, onions on a bun. An additional subway coffee to go with it.',
+      'price': 54.0,
+      'rating': 4.8,
+      'preparationTime': '15 - 25',
+    },
+    {
+      'id': '3',
+      'name': 'Chicken Bucket',
+      'tag': 'Lunch',
+      'imagePath': FoodAppAssets.chickenbucket,
+      'description': 'Chicken, Lunch',
+      'recipe':
+          'A bucket of chicken with special sauce, lettuce, cheese, onions on a bun. An additional subway coffee to go with it.',
+      'price': 54.0,
+      'rating': 4.3,
+      'preparationTime': '15 - 20',
+    },
+    {
+      'id': '4',
+      'name': 'Coffee',
+      'tag': 'Breakfast',
+      'imagePath': FoodAppAssets.coffee2,
+      'description': 'Coffee, Drinks',
+      'recipe': 'A special coffee with brown sugar, milk, and whipped cream.',
+      'price': 24.0,
+      'rating': 4.7,
+      'preparationTime': '5 - 10',
+    },
+    {
+      'id': '5',
+      'name': 'Pizza',
+      'tag': 'Value Meals',
+      'imagePath': FoodAppAssets.pizza3,
+      'description': 'Pizza, Fast Food',
+      'recipe': 'A pizza with special sauce, lettuce, cheese, onions on a bun.',
+      'price': 54.0,
+      'rating': 4.8,
+      'preparationTime': '15 - 25',
+    },
+    {
+      'id': '6',
+      'name': 'Cheeseburger Supreme',
+      'tag': 'Burgers',
+      'imagePath': FoodAppAssets.burger3,
+      'description': 'Burgers, American',
+      'recipe':
+          'A big and tasty burger with special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.',
+      'price': 20.0,
+      'rating': 4.5,
+      'preparationTime': '10 - 15',
+    },
+    {
+      'id': '7',
+      'name': 'Meat Lovers',
+      'tag': 'Burgers',
+      'imagePath': FoodAppAssets.burger2,
+      'description': 'Burgers, American',
+      'recipe':
+          'A big and tasty burger with special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.',
+      'price': 20.0,
+      'rating': 4.5,
+      'preparationTime': '10 - 15',
+    },
+    {
+      'id': '8',
+      'name': 'Chips, Burger & Drink',
+      'tag': 'Breakfast',
+      'imagePath': FoodAppAssets.md2,
+      'description': 'Chicken, Lunch',
+      'recipe':
+          'A bucket of chicken with special sauce, lettuce, cheese, onions on a bun. An additional subway coffee to go with it.',
+      'price': 54.0,
+      'rating': 4.3,
+      'preparationTime': '15 - 20',
+    },
+    {
+      'id': '9',
+      'name': 'Fries',
+      'tag': 'Snack & Sides',
+      'imagePath': FoodAppAssets.fies4,
+      'description': 'Fries, Fast Food',
+      'recipe': 'A special fries with brown sugar, milk, and whipped cream.',
+      'price': 13.0,
+      'rating': 4.5,
+      'preparationTime': '5 - 10',
+    },
+    {
+      'id': '10',
+      'name': 'Supreme Hot Dog',
+      'tag': 'Desserts',
+      'imagePath': FoodAppAssets.hotdog1,
+      'description': 'Hot Dog, American',
+      'recipe': 'A special hot dog with mayonnaise, ketchup, and mustard.',
+      'price': 10.0,
+      'rating': 4.5,
+      'preparationTime': '5 - 10',
+    },
+    {
+      'id': '11',
+      'name': 'Ice Chilled Coke',
+      'tag': 'Beverages',
+      'imagePath': FoodAppAssets.coke1,
+      'description': 'Coke, Drinks',
+      'recipe': 'A special cocacola drink ice chilled.',
+      'price': 5.0,
+      'rating': 4.5,
+      'preparationTime': '5 - 10',
+    },
+    {
+      'id': '12',
+      'name': 'Lunch Keto Sauce',
+      'tag': 'Lunch',
+      'imagePath': FoodAppAssets.subway1,
+      'description': 'Subway, Fast Food',
+      'recipe':
+          'A ham sandwich beef patty smothered in our one of a kind big tasty sauce and topped with lettuce, pickles, onions, and cheese.',
+      'price': 54.0,
+      'rating': 4.8,
+      'preparationTime': '15 - 25',
+    },
+    {
+      'id': '13',
+      'name': 'Iced Coffee',
+      'tag': 'Coffee',
+      'imagePath': FoodAppAssets.coffee2,
+      'description': 'Coffee, Drinks',
+      'recipe': 'A special coffee with brown sugar, milk, and whipped cream.',
+      'price': 24.0,
+      'rating': 4.7,
+      'preparationTime': '5 - 10',
+    },
+    {
+      'id': '14',
+      'name': 'French Hot Dog',
+      'tag': 'Hot Dog',
+      'imagePath': FoodAppAssets.asset_1,
+      'description': 'Hot Dog, French',
+      'recipe': 'A special hot dog with mayonnaise, ketchup, and mustard.',
+      'price': 10.0,
+      'rating': 4.5,
+      'preparationTime': '5 - 10',
+    },
+    {
+      'id': '15',
+      'name': 'Grand Angus',
+      'tag': 'Burgers',
+      'imagePath': FoodAppAssets.burger,
+      'description': 'Burgers, American',
+      'recipe':
+          'A big and tasty burger with special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.',
+      'price': 20.0,
+      'rating': 4.5,
+      'preparationTime': '10 - 15',
+    },
+    {
+      'id': '16',
+      'name': 'McGrilled Chicken',
+      'tag': 'Burgers',
+      'imagePath': FoodAppAssets.burger1,
+      'description': 'Burgers, American',
+      'recipe':
+          'A big and tasty burger with special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.',
+      'price': 23.5,
+      'rating': 4.8,
+      'preparationTime': '10 - 15',
+    },
+    {
+      'id': '17',
+      'name': 'Double Quarter Pounder',
+      'tag': 'Burgers',
+      'imagePath': FoodAppAssets.burger2,
+      'description': 'Burgers, American',
+      'recipe':
+          'A big and tasty burger with special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.',
+      'price': 25.0,
+      'rating': 4.5,
+      'preparationTime': '15 - 20',
+    }
+  ];
+}

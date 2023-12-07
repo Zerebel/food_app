@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Big Breakfast Meal",
+    "image": "big_breakfast_meal.jpg",
+    "description": "Breakfast Combo",
+    "price": 15.99,
+    "tag": "Breakfast Value Meals",
+    "rating": 4.5,
+    "preparation_time": "10-15 mins"
+  },
+  {
+    "name": "Chicken Sausage",
+    "image": "chicken_sausage.jpg",
+    "description": "Grilled Sausage",
+    "price": 8.99,
+    "tag": "Breakfast Value Meals",
+    "rating": 4.0,
+    "preparation_time": "8-12 mins"
+  },
+  {
+    "name": "BBQ Angus",
+    "image": "bbq_angus_burger.jpg",
+    "description": "Angus Burger",
+    "price": 12.99,
+    "tag": "Burgers",
+    "rating": 4.2,
+    "preparation_time": "12-18 mins"
+  },
+  {
+    "name": "Big Mac",
+    "image": "big_mac.jpg",
+    "description": "Double Patty",
+    "price": 11.49,
+    "tag": "Burgers",
+    "rating": 4.7,
+    "preparation_time": "15-20 mins"
+  },
+  {
+    "name": "Spicy McChicken Meal",
+    "image": "spicy_mcchicken_meal.jpg",
+    "description": "Spicy Combo",
+    "price": 9.99,
+    "tag": "Value Meals",
+    "rating": 4.0,
+    "preparation_time": "10-15 mins"
+  },
+  {
+    "name": "Share Meal",
+    "image": "share_meal.jpg",
+    "description": "Combo Sharing",
+    "price": 24.99,
+    "tag": "Value Meals",
+    "rating": 4.5,
+    "preparation_time": "18-25 mins"
+  },
+  {
+    "name": "Cheese Pizza",
+    "image": "cheese_pizza.jpg",
+    "description": "Classic Pizza",
+    "price": 10.99,
+    "tag": "Pizza",
+    "rating": 4.8,
+    "preparation_time": "12-15 mins"
+  },
+  {
+    "name": "Grilled Chicken Salad",
+    "image": "grilled_chicken_salad.jpg",
+    "description": "Chicken Salad",
+    "price": 8.49,
+    "tag": "Salads",
+    "rating": 4.5,
+    "preparation_time": "8-10 mins"
+  },
+  {
+    "name": "Iced Coffee",
+    "image": "iced_coffee.jpg",
+    "description": "Cold Coffee",
+    "price": 4.99,
+    "tag": "Coffee",
+    "rating": 4.3,
+    "preparation_time": "5-8 mins"
+  },
+  {
+    "name": "Pepperoni Pizza",
+    "image": "pepperoni_pizza.jpg",
+    "description": "Spicy Pizza",
+    "price": 13.99,
+    "tag": "Pizza",
+    "rating": 4.6,
+    "preparation_time": "15-18 mins"
+  },
+  {
+    "name": "Caesar Salad",
+    "image": "caesar_salad.jpg",
+    "description": "Classic Salad",
+    "price": 9.49,
+    "tag": "Salads",
+    "rating": 4.2,
+    "preparation_time": "10-12 mins"
+  },
+  {
+    "name": "Caramel Frappe",
+    "image": "caramel_frappe.jpg",
+    "description": "Caramel Drink",
+    "price": 6.99,
+    "tag": "Coffee",
+    "rating": 4.4,
+    "preparation_time": "8-10 mins"
+  },
+  {
+    "name": "Mighty Angus",
+    "image": "mighty_angus_burger.jpg",
+    "description": "Angus Beef Burger",
+    "price": 14.49,
+    "tag": "Burgers",
+    "rating": 4.9,
+    "preparation_time": "15-20 mins"
+  },
+  {
+    "name": "McNuggets",
+    "image": "mcnuggets.jpg",
+    "description": "Chicken Nuggets",
+    "price": 7.99,
+    "tag": "Snacks",
+    "rating": 4.3,
+    "preparation_time": "8-10 mins"
+  },
+  {
+    "name": "Fish Fillet Meal",
+    "image": "fish_fillet_meal.jpg",
+    "description": "Fish Fillet Combo",
+    "price": 11.99,
+    "tag": "Value Meals",
+    "rating": 4.2,
+    "preparation_time": "12-15 mins"
+  },
+  {
+    "name": "Margherita Pizza",
+    "image": "margherita_pizza.jpg",
+    "description": "Margherita Pizza",
+    "price": 11.99,
+    "tag": "Pizza",
+    "rating": 4.7,
+    "preparation_time": "12-15 mins"
+  },
+  {
+    "name": "Vegetarian Wrap",
+    "image": "vegetarian_wrap.jpg",
+    "description": "Veggie Wrap",
+    "price": 8.99,
+    "tag": "Wraps",
+    "rating": 4.0,
+    "preparation_time": "8-10 mins"
+  },
+  {
+    "name": "Hot Chocolate",
+    "image": "hot_chocolate.jpg",
+    "description": "Chocolate Drink",
+    "price": 5.99,
+    "tag": "Drinks",
+    "rating": 4.5,
+    "preparation_time": "5-8 mins"
+  },
+  {
+    "name": "Chicken Wrap",
+    "image": "chicken_wrap.jpg",
+    "description": "Chicken Wrap",
+    "price": 9.99,
+    "tag": "Wraps",
+    "rating": 4.2,
+    "preparation_time": "8-10 mins"
+  },
+  {
+    "name": "Chicken McNuggets",
+    "image": "chicken_mcnuggets.jpg",
+    "description": "Chicken Nuggets",
+    "price": 7.99,
+    "tag": "Snacks",
+    "rating": 4.3,
+    "preparation_time": "8-10 mins"
+  },
+  {
+    "name": "Chicken McNuggets Meal",
+    "image": "chicken_mcnuggets_meal.jpg",
+    "description": "Chicken Nuggets Combo",
+    "price": 11.99,
+    "tag": "Value Meals",
+    "rating": 4.2,
+    "preparation_time": "12-15 mins"
+  },
+  {
+    "name": "Chicken McNuggets Sharebox",
+    "image": "chicken_mcnuggets_sharebox.jpg",
+    "description": "Chicken Nuggets Sharing",
+    "price": 24.99,
+    "tag": "Value Meals",
+    "rating": 4.5,
+    "preparation_time": "18-25 mins"
+  },
+  {
+    "name": "Chicken McNuggets",
+    "image": "chicken_mcnuggets.jpg",
+    "description": "Chicken Nuggets",
+    "price": 7.99,
+    "tag": "Snacks",
+    "rating": 4.3,
+    "preparation_time": "8-10 mins"
+  },
+  {
+    "name": "Chicken McNuggets Meal",
+    "image": "chicken_mcnuggets_meal.jpg",
+    "description": "Chicken Nuggets Combo",
+    "price": 11.99,
+    "tag": "Value Meals",
+    "rating": 4.2,
+    "preparation_time": "12-15 mins"
+  },
+  {
+    "name": "Chicken McNuggets Sharebox",
+    "image": "chicken_mcnuggets_sharebox.jpg",
+    "description": "Chicken Nuggets Sharing",
+    "price": 24.99,
+    "tag": "Value Meals",
+    "rating": 4.5,
+    "preparation_time": "18-25 mins"
+  }
+]
